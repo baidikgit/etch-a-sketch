@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* global reset */
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    border: 3px solid black;
+    display: flex;
+    width: 966px;
+    flex-wrap: wrap;
+}
+.newdiv{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;}
+.new{
+    text-align: center;
+    font-size: larger;
+    width:10rem;
+    height:5rem;
+}
+.grid-cell{
+background-color: black;
+opacity: 0;
+width: calc(100%/16);
+aspect-ratio: 1/1;
+border: 1px solid #000;
+}
