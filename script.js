@@ -33,7 +33,7 @@ function newSketchpad(){
                 let current  = parseFloat(divArray[i][j].style.opacity) || 0; 
                     if(current<1) divArray[i][j].style.opacity = current + 0.1;
                 });
-            divArray[i][j].style.width = `${966 / pixels}px`;
+            divArray[i][j].style.width = `${960 / pixels}px`;
             divArray[i][j].style.aspectRatio = "1 / 1";
             container.appendChild(divArray[i][j]);
         }

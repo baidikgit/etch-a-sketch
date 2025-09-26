@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* global reset */
+  box-sizing: border-box;
 }
 
 body{
@@ -14,16 +14,17 @@ body{
     justify-content: center;
 }
 .container{
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     display: flex;
-    width: 966px;
-    height: 966px;
+    width: 960px;
+    height: 960px;
     flex-wrap: wrap;
+    outline: 3px solid black;
 }
 .newdiv{
     display: flex;
     justify-content: center;
-    padding: 1rem;}
+    /*padding: 1rem;*/}
 .new{
     text-align: center;
     font-size: larger;
