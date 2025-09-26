@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box; /* global reset */
 }
+
 body{
     display: flex;
     flex-direction: column;
 }
+
 .body{
     display:flex;
     justify-content: center;
@@ -15,12 +17,13 @@ body{
     border: 3px solid black;
     display: flex;
     width: 966px;
+    height: 966px;
     flex-wrap: wrap;
 }
 .newdiv{
     display: flex;
     justify-content: center;
-    padding: 1.5rem;}
+    padding: 1rem;}
 .new{
     text-align: center;
     font-size: larger;
@@ -28,6 +31,8 @@ body{
     height:5rem;
 }
 .grid-cell{
+user-select: none;      /* prevents text selection */
+-webkit-user-drag: none;
 background-color: black;
 opacity: 0;
 width: calc(100%/16);
